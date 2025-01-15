@@ -1,10 +1,10 @@
-# edp-exam-b
+# edp-exam-c
 
-## Create a system similar to student-embassy but that should allow to order a computer in online store
-1. There should be an Store and Customer class.
+## Create a system similar to student-embassy but that should allow to enroll to university
+1. There should be a Student and University class.
 2. Create events:
 * parent class Event with payload.
-* child events [think what kind of events might be there: eg. OrderSubmittedEvent, OrderRejected etc. ]
+* child events [think what kind of events might be there: eg. ApplicationSentEvent, ApplicationRejected etc. ]
 3. Create communication queue
 4. All classes could be in main.py
 5. Demonstrate the usage in main.py
